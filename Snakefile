@@ -22,3 +22,5 @@ rule phase_three:
         "some-figure.txt"
     shell:
         "echo 'SCIENCE' > {output[0]}"
+
+# Phase 4: build latex (ignored for this case)
